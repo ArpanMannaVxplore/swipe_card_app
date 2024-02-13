@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import '../main.dart';
@@ -60,7 +59,6 @@ void initState() {
   }
 */
 
-
   void initState() {
     super.initState();
     _animationController = AnimationController(
@@ -86,8 +84,6 @@ void initState() {
       }
     });
   }
-
-
 
   @override
   Widget build(BuildContext context) {
